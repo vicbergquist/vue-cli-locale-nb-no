@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-locale-no",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Norwegian localization for @vue/cli",
   "unpkg": "./locales/no.json",
   "repository": {
