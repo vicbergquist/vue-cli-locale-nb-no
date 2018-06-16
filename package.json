@@ -1,11 +1,11 @@
 {
-  "name": "vue-cli-locale-nb",
+  "name": "vue-cli-locale-nb-no",
   "version": "0.1.5",
   "description": "Norwegian localization for @vue/cli",
-  "unpkg": "./locales/nb.json",
+  "unpkg": "./locales/nb-no.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vicbergquist/vue-cli-locale-no.git"
+    "url": "git+https://github.com/vicbergquist/vue-cli-locale-nb-no.git"
   },
   "keywords": [
     "vue",
@@ -16,7 +16,7 @@
   "author": "Victoria Bergquist",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vicbergquist/vue-cli-locale-no/issues"
+    "url": "https://github.com/vicbergquist/vue-cli-locale-nb-no/issues"
   },
-  "homepage": "https://github.com/vicbergquist/vue-cli-locale-no#readme"
+  "homepage": "https://github.com/vicbergquist/vue-cli-locale-nb-no#readme"
 }
