@@ -1,4 +1,4 @@
-# vue-cli-locale-no
+# vue-cli-locale-nb-no
 
 Norwegian localization for @vue/cli 🇳🇴
 
