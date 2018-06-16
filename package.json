@@ -1,8 +1,8 @@
 {
-  "name": "vue-cli-locale-nb-no",
+  "name": "vue-cli-locale-nb",
   "version": "0.1.4",
   "description": "Norwegian localization for @vue/cli",
-  "unpkg": "./locales/nb-no.json",
+  "unpkg": "./locales/nb.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vicbergquist/vue-cli-locale-no.git"
