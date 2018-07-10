@@ -5,3 +5,4 @@ deploy:
   on:
     tags: true
     repo: vicbergquist/vue-cli-locale-nb-no
+  tag: next
