@@ -12,6 +12,6 @@ This will be automatically loaded by vue-cli.
 - Push to branch
 - Submit pull request
 
-## :copyright: License
+## License
 
 [MIT](LICENSE)
