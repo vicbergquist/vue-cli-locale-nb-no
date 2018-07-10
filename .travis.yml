@@ -1,8 +1,7 @@
 deploy:
   provider: npm
   email: victoria.bergquist@gmail.com
-  api_key: $NPM_TOKEN
+  api_key:
+    secure: HBsO4WMFbKu9cw/i/p2AfDSbW8yDO5FglEHHZjV9fCsZdEnsaLCafwWSV782vx0N6Wu5xj/nKIsiOsCJoYWoTB6okIWLMk5RftcdtGVi2tbcJ9uix5wTBYyzoYhMsFAK07B/J1kQu8LXrqTpo/DPztMLhKF8OBaA8IUwM8is1N0KMTDkHRkFHnWubIEADcKjcCGFYy6LYstrNmMF3/K9oRNG7iezIqAc9JurshL9bRwwgHaiYAVrdF+Ey6w5oHY69SeD79wlNcsNZpEEyKGaz7QMoHqDR8QcPk6kBFbSuZEgQFnUJEL6CkBpg9jHLXwLuoDPTqQU7RBdidEf9XblWNyOYAtOYQY3jLHaag3Efz+xuFONAYys4uz7wZLLUWVpWXl1sVWW9fttbZQbhJ6JK/EZz0IVxXRj6D+AxJhiaDAohQyYuWmylYz3ekaITaXAM97O9rfxzcpmn4jnRg3cWN8X5skieH4KCwZV2gUGlnGLaMal1oQAT5QcQlO1dQJvfi0GgRn6YsYV9NYkKW4gKs2NR0eUFiM6W+j/DH/rLouIVBsUv2Umf9ssySKfEy/GxTBhIhVbkq5ZOAy5bhJWMTqHrEed772G4ZEzYHNfQP8QkZsfQzkI+K1L50YTZpqDYXVlQlAUMWbK5FYSVbZbqhwPuiz3BF/lK1NiZHplTAk=
   on:
-    tags: true
     repo: vicbergquist/vue-cli-locale-nb-no
-  tag: next
