@@ -5,3 +5,5 @@ deploy:
   api_key: $NPM_TOKEN
   on:
     repo: vicbergquist/vue-cli-locale-nb-no
+  script:
+    - npx semantic-release

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/vicbergquist/vue-cli-locale-nb-no/issues"
   },
-  "homepage": "https://github.com/vicbergquist/vue-cli-locale-nb-no#readme"
+  "homepage": "https://github.com/vicbergquist/vue-cli-locale-nb-no#readme",
+  "devDependencies": {
+    "semantic-release": "^15.7.1"
+  }
 }
