@@ -2,7 +2,6 @@
   "name": "vue-cli-locale-nb-no",
   "version": "0.0.0-semantic-release",
   "release": {
-    "branch": "next",
     "tagFormat": "${version}"
   },
   "description": "Norwegian localization for @vue/cli",
