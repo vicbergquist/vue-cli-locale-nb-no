@@ -1,7 +1,7 @@
 {
   "components": {
     "connection-status": {
-      "disconnected": "UI-serveren er frakoblet",
+      "disconnected": "UI-serveren frakoblet",
       "connected": "Tilkoblet!"
     },
     "file-diff": {
