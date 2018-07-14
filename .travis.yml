@@ -5,7 +5,6 @@ deploy:
   api_key: $NPM_TOKEN
   on:
     tags: true
-    all_branches: true
     repo: vicbergquist/vue-cli-locale-nb-no
 after_success:
   - npx semantic-release
