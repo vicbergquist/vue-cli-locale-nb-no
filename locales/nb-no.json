@@ -210,14 +210,14 @@
       },
       "views": {
         "project-select": {
-          "title": "Vue-projektmanager",
+          "title": "Projektmanager",
           "tabs": {
             "projects": "Projekter",
             "create": "Opprett",
             "import": "Importer"
           },
           "buttons": {
-            "create": "Lag et nytt projekt her",
+            "create": "Opprett nytt projekt her",
             "import": "Importer denne mappen"
           },
           "import": {
@@ -229,7 +229,7 @@
           }
         },
         "project-create": {
-          "title": "Opprett et nytt projekt",
+          "title": "Opprett nytt projekt",
           "tabs": {
             "details": {
               "title": "Detaljer",
@@ -248,7 +248,7 @@
                 },
                 "options": {
                   "label": "Tilleggsalternativer",
-                  "force": "Overskriv målmappen hvis den eksisterer allerede",
+                  "force": "Overskriv mappen hvis den eksisterer allerede",
                   "git-title": "Git repository",
                   "git": "Initialiser git repository (anbefalt)",
                   "git-commit-message": "Første commit-melding (valgfritt)"
@@ -285,23 +285,23 @@
                 "description": "Velg funksjoner manuelt"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Hent en remote-forhåndsinnstilling fra et git repository",
+                "name": "Ekstern forhåndsinnstilling",
+                "description": "Hent en ekstern forhåndsinnstilling fra et git repository",
                 "url": {
                   "title": "URL til forhåndsinnstillingen",
                   "subtitle": "Git repo, for eksempel 'brukernavn/repo'. Du kan også skrive 'gitlab:' eller 'bitbucket:' foran."
                 },
                 "options": "Andre muligheter",
-                "clone": "Kloner/Privat repository",
+                "clone": "Kloner/privat repository",
                 "cancel": "Avbryt",
                 "done": "Ferdig"
               },
-              "default-preset": "Standardforhåndsinnstilling"
+              "default-preset": "Standard"
             },
             "features": {
               "title": "Funksjoner",
-              "description": "Du kan også legge til funksjoner etter at du har opprettet projektet ved å installere plugins.",
-              "enable": "Aktivere funksjoner",
+              "description": "Du kan også legge til funksjoner ved å installere plugins etter at du har opprettet projektet.",
+              "enable": "Aktiver funksjoner",
               "buttons": {
                 "previous": "Forrige",
                 "next": "Neste",
@@ -319,15 +319,15 @@
                 "create": "Opprett projekt"
               },
               "modal": {
-                "title": "Lagre som en ny preset",
+                "title": "Lagre som ny forhåndsinnstilling",
                 "body": {
-                  "title": "Preset-navn",
-                  "subtitle": "Lagre funksjonene og konfigurasjonen i en ny preset"
+                  "title": "Navn på forhåndsinnstilling",
+                  "subtitle": "Lagre funksjonene og konfigurasjonen i en ny forhåndsinnstilling"
                 },
                 "buttons": {
                   "cancel": "Avbryt",
                   "continue": "Fortsett uten å lagre",
-                  "create": "Opprett en ny preset"
+                  "create": "Opprett ny forhåndsinnstilling"
                 }
               }
             }
@@ -391,13 +391,13 @@
         },
         "project-task-details": {
           "actions": {
-            "play": "Kjør oppgave",
+            "play": "Start oppgave",
             "stop": "Stopp oppgave",
             "close": "Lukk"
           },
           "command": "Script-kommando",
           "parameters": "Parametere",
-          "parameters-info": "Parametrene lagres når oppgaven kjøres.",
+          "parameters-info": "Parametrene lagres når oppgaven settes i gang.",
           "more-info": "Mer info",
           "output": "Resultat"
         },
@@ -405,7 +405,7 @@
           "title": "Projekt-dependencies",
           "heading": {
             "dependencies": "Hoved-dependencies",
-            "devDependencies": "Dependencies for utvikling"
+            "devDependencies": "Utviklings-dependencies"
           },
           "actions": {
             "install": "Installer dependency",
@@ -526,7 +526,7 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Konfigurer Vue-projektet dit",
+            "description": "Konfigurer Vue-projektet ditt",
             "groups": {
               "general": "Generelle innstillinger",
               "css": "CSS-innstillinger"
@@ -561,7 +561,7 @@
                 "description": "Som standard blir kun filer som ender med *.module.[ext] behandlet som CSS-moduler. Ved å aktivere dette alternativet vil alle style-filer bli behandlet som CSS-moduler."
               },
               "extract": {
-                "label": "Trekke ut CSS",
+                "label": "CSS-moduler",
                 "description": "Bestemmer om CSS i komponentene dine skal trekkes ut i egne CSS-filer (i stedet for inlined i JavaScript og satt inn dynamisk."
               },
               "sourceMap": {
@@ -617,7 +617,7 @@
             },
             "name": {
               "message": "App-navn",
-              "description": "App-navn som vises på Splash-skjermen og andre stedet. Brukes også som verdien for `apple-mobile-web-app-title`-metataggen i det genererte HTML"
+              "description": "App-navn som vises på Splash-skjermen og andre steder. Brukes også som verdien for `apple-mobile-web-app-title`-metataggen i HTML som blir generert."
             },
             "themeColor": {
               "message": "Fargetema",
@@ -649,38 +649,38 @@
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Kjør e2e-tester med `cypress run`",
-            "headless": "Kjør i headless-modus uten GUI (grafisk brukergrensesnitt)",
-            "mode": "Spesifiser modusen som dev-serveren skal kjøres i",
-            "url": "Kjør e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk"
+            "description": "Start e2e-tester med `cypress run`",
+            "headless": "Start i headless-modus uten GUI (grafisk brukergrensesnitt)",
+            "mode": "Spesifiser modusen som dev-serveren skal startes i",
+            "url": "Start e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Kjør e2e-tester med nightwatch",
-            "url": "Kjør e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk",
+            "description": "Start e2e-tester med nightwatch",
+            "url": "Start e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk",
             "config": "Bruk en egen nightwatch config-fil (overskriver internals)",
-            "env": "Kommaseparerte nettlesere som envs skal kjøres i"
+            "env": "Kommaseparerte nettlesere som envs skal startes i"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Kjør enhetstester med Jestks",
-            "watch": "Se etter filendringer og kjør tester på nytt for filer som har blitt endret",
+            "description": "Start enhetstester med Jestks",
+            "watch": "Se etter filendringer og start tester på nytt for filer som har blitt endret",
             "notify": "Vis en melding for hver kjøring",
-            "update": "Ta et snapshot på nytt for hver gang det mislykkes under dette testkjøret"
+            "update": "Ta snapshot på nytt for hver gang det mislykkes under dette testkjøret"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Kjør enhetstester med Mocha",
-            "watch": "Se etter filendringer og kjør tester på nytt for filer som har blitt endret"
+            "description": "Start enhetstester med Mocha",
+            "watch": "Se etter filendringer og start tester på nytt for filer som har blitt endret"
           }
         }
       }
