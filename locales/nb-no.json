@@ -41,12 +41,12 @@
           "toolbar": {
             "tooltips": {
               "parent-folder": "Åpne overmappe",
-              "edit-path": "Rediger filvei",
+              "edit-path": "Rediger filbane",
               "favorite": "Toggle favoritt",
               "favorite-folders": "Favorittmapper",
               "refresh": "Oppdater"
             },
-            "placeholder": "Skriv inn hele filveien til en mappe",
+            "placeholder": "Skriv inn hele filbanen til en mappe",
             "empty": "Du har ingen favorittmapper enda.",
             "show-hidden": "Vis skjulte mapper"
           },
@@ -86,10 +86,10 @@
           }
         },
         "project-select-list": {
-          "empty": "Ingen eksisterende projekter",
+          "empty": "Ingen eksisterende prosjekter",
           "titles": {
-            "favorite": "Favorittprojekter",
-            "other": "Andre projekter"
+            "favorite": "Favorittprosjekter",
+            "other": "Andre prosjekter"
           }
         },
         "project-select-list-item": {
@@ -132,8 +132,8 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Gjeldende projekt<br><i>Trykk for å toggle projektmanageren</i>",
-            "empty": "Ingen projekter"
+            "tooltip": "Gjeldende prosjekt<br><i>Trykk for å toggle prosjektmanageren</i>",
+            "empty": "Ingen prosjekter"
           },
           "path": {
             "tooltip": "Gjeldende mappe"
@@ -161,9 +161,9 @@
           }
         },
         "top-bar": {
-          "no-favorites": "Du har ingen favorittprojekter",
-          "favorite-projects": "Favorittprojekter",
-          "recent-projects": "Siste projekter",
+          "no-favorites": "Du har ingen favorittprosjekter",
+          "favorite-projects": "Favorittprosjekter",
+          "recent-projects": "Siste prosjekter",
           "homepage": "Hjemmeside"
         },
         "view-badge": {
@@ -178,14 +178,14 @@
       },
       "mixins": {
         "progress": {
-          "creating": "Oppretter projektet...",
+          "creating": "Oppretter prosjektet...",
           "git-init": "Initialiserer git repository-et...",
           "plugins-install": "Installerer Vue CLI-plugins. Dette kan ta en stund...",
           "invoking-generators": "Henter generators...",
           "deps-install": "Installerer tilleggsdependencies...",
           "completion-hooks": "Kjører fullføringshooks...",
           "fetch-remote-preset": "Henter remote-forhåndsinnstillinger...",
-          "done": "Oppretting av projektet er vellykket",
+          "done": "Oppretting av prosjektet er vellykket",
           "plugin-install": "Installerer {arg0}...",
           "plugin-uninstall": "Avinstallerer {arg0}...",
           "plugin-invoke": "Laster ned {arg0}...",
@@ -210,32 +210,32 @@
       },
       "views": {
         "project-select": {
-          "title": "Projektmanager",
+          "title": "Prosjektmanager",
           "tabs": {
-            "projects": "Projekter",
+            "projects": "Prosjekter",
             "create": "Opprett",
             "import": "Importer"
           },
           "buttons": {
-            "create": "Opprett nytt projekt her",
+            "create": "Opprett nytt prosjekt her",
             "import": "Importer denne mappen"
           },
           "import": {
             "no-modules": {
               "title": "Manglende moduler",
-              "message": "Dette projektet mangler 'node_modules'-mappen. Kontroller at du har installert dependencies før du importerer projektet.",
+              "message": "Dette prosjektet mangler 'node_modules'-mappen. Kontroller at du har installert dependencies før du importerer prosjektet.",
               "close": "Forstått"
             }
           }
         },
         "project-create": {
-          "title": "Opprett nytt projekt",
+          "title": "Opprett nytt prosjekt",
           "tabs": {
             "details": {
               "title": "Detaljer",
               "form": {
                 "folder": {
-                  "label": "Projektmappe",
+                  "label": "Prosjektmappe",
                   "placeholder": "my-app",
                   "tooltip": "Endre basismappen",
                   "action": "Velg denne mappen",
@@ -259,22 +259,22 @@
                 "next": "Neste"
               },
               "modal": {
-                "title": "Avbryt og nullstill projektopprettingen",
-                "body": "Er du sikker på at du vil avslutte og nullstille projektopprettingen?",
+                "title": "Avbryt og nullstill prosjektopprettingen",
+                "body": "Er du sikker på at du vil avslutte og nullstille prosjektopprettingen?",
                 "buttons": {
                   "back": "Go tilbake",
-                  "clear": "Tilbakestill projektet"
+                  "clear": "Tilbakestill prosjektet"
                 }
               }
             },
             "presets": {
               "title": "Forhåndsinnstillinger",
-              "description": "En forhåndsinnstilling er en assosiasjon av plugins og konfigurasjoner. Etter at du har valgt funksjonene du ønsker, kan du velge om du vil lagre dette som en forhåndsinnstilling som kan brukes når du oppretter projekter i fremtiden, uten at du trenger å gjøre alt på nytt.",
+              "description": "En forhåndsinnstilling er en assosiasjon av plugins og konfigurasjoner. Etter at du har valgt funksjonene du ønsker, kan du velge om du vil lagre dette som en forhåndsinnstilling som kan brukes når du oppretter prosjekter i fremtiden, uten at du trenger å gjøre alt på nytt.",
               "select": "Velg en forhåndsinnstilling",
               "buttons": {
                 "previous": "Forrige",
                 "next": "Neste",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "modal": {
                 "title": "Konfigurer en remote-forhåndsinnstilling",
@@ -300,12 +300,12 @@
             },
             "features": {
               "title": "Funksjoner",
-              "description": "Du kan også legge til funksjoner ved å installere plugins etter at du har opprettet projektet.",
+              "description": "Du kan også legge til funksjoner ved å installere plugins etter at du har opprettet prosjektet.",
               "enable": "Aktiver funksjoner",
               "buttons": {
                 "previous": "Forrige",
                 "next": "Neste",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "userConfigFiles": {
                 "name": "Bruk config-filer",
@@ -316,7 +316,7 @@
               "title": "Konfigurasjon",
               "buttons": {
                 "previous": "Forrige",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "modal": {
                 "title": "Lagre som ny forhåndsinnstilling",
@@ -334,7 +334,7 @@
           }
         },
         "project-plugins": {
-          "title": "Projekt-plugins",
+          "title": "Prosjekt-plugins",
           "button": "Legg til en plugin",
           "heading": "Installerte plugins",
           "update-all": "Oppdater alle plugins"
@@ -376,7 +376,7 @@
           }
         },
         "project-configurations": {
-          "title": "Projektkonfigurasjon"
+          "title": "Prosjektkonfigurasjon"
         },
         "project-configuration-details": {
           "actions": {
@@ -387,7 +387,7 @@
           }
         },
         "project-tasks": {
-          "title": "Projektoppgaver"
+          "title": "Prosjektoppgaver"
         },
         "project-task-details": {
           "actions": {
@@ -402,7 +402,7 @@
           "output": "Resultat"
         },
         "project-dependencies": {
-          "title": "Projekt-dependencies",
+          "title": "Prosjekt-dependencies",
           "heading": {
             "dependencies": "Hoved-dependencies",
             "devDependencies": "Utviklings-dependencies"
@@ -424,7 +424,7 @@
         "about": {
           "title": "Om",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> er en innebygd pakke i vue-cli som åpner et helt brukergrensesnitt.",
-          "quote": "Vue-cli 3.x er en fullstendig omskrivning, med mange nye kule funksjoner. Du kan nå velge funksjoner som routing, Vuex eller Typescript, og deretter legge til og oppgradere enheter kalt \"vue-cli plugins\". Det kan derimot fort bli vanskelig og komplisert å bruke et verktøy som dette når det finnes så mange forskjellige alternativer og konfigurasjoner. Derfor tenkte vi at et grafisk brukergrensesnitt kan hjelpe deg med å oppdage nye funksjoner, søke og installere vue-cli plugins og generelt sett utforske andre muligheter, uten at du er bregrenset av et terminalgrensesnitt. For å oppsummere, vue-cli tillater deg ikke bare helt enkelt å bootstrappe nye projekter, men er også nyttig for arbeid som kommer senere i projektprosessen!",
+          "quote": "Vue-cli 3.x er en fullstendig omskrivning, med mange nye kule funksjoner. Du kan nå velge funksjoner som routing, Vuex eller Typescript, og deretter legge til og oppgradere enheter kalt \"vue-cli plugins\". Det kan derimot fort bli vanskelig og komplisert å bruke et verktøy som dette når det finnes så mange forskjellige alternativer og konfigurasjoner. Derfor tenkte vi at et grafisk brukergrensesnitt kan hjelpe deg med å oppdage nye funksjoner, søke og installere vue-cli plugins og generelt sett utforske andre muligheter, uten at du er bregrenset av et terminalgrensesnitt. For å oppsummere, vue-cli tillater deg ikke bare helt enkelt å bootstrappe nye prosjekter, men er også nyttig for arbeid som kommer senere i prosjektprosessen!",
           "links": "Nyttige lenker",
           "back": "Gå tilbake"
         }
@@ -526,14 +526,14 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Konfigurer Vue-projektet ditt",
+            "description": "Konfigurer Vue-prosjektet ditt",
             "groups": {
               "general": "Generelle innstillinger",
               "css": "CSS-innstillinger"
             },
             "baseUrl": {
               "label": "URL-utgangspunkt",
-              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filveier."
+              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
             },
             "outputDir": {
               "label": "Utgangskatalog",
